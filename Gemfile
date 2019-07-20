@@ -16,6 +16,7 @@ gem "jwt"
 
 group :development, :test do
   gem "dotenv-rails", "~> 2.7.4"
+  gem "factory_bot_rails", "~> 4.8.2"
 end
 
 group :development do
@@ -23,4 +24,9 @@ group :development do
   gem "rubocop", require: false
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.0"
+end
+
+group :test do
+  gem "rspec", "~> 3.7.0"
+  gem "rspec-rails", "~> 3.7.2"
 end
