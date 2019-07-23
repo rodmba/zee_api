@@ -4,6 +4,10 @@
 class ApplicationController < ActionController::API
   require "json_web_token"
 
+  def render_content(content)
+    render json: JSON.pretty_generate(content), status: :ok
+  end
+
   # Validates the token and user and sets the @current_user scope
   def authenticate_request!
     if !payload || !JsonWebToken.valid_payload(payload.first)

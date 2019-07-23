@@ -6,6 +6,12 @@ Rails.application.routes.draw do
           post :sign_in
         end
       end
+
+      resources :git_hub, only: %i[repositories] do
+        collection do
+          get :repositories
+        end
+      end
     end
   end
 end
