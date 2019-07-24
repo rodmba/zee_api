@@ -1,5 +1,6 @@
 # Zee Api
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5f6de69f13304b6686be139bc30b5677)](https://app.codacy.com/app/rodmba/zee_api?utm_source=github.com&utm_medium=referral&utm_content=rodmba/zee_api&utm_campaign=Badge_Grade_Dashboard)
 [![CircleCI](https://circleci.com/gh/rodmba/zee_api.svg?style=svg)](https://circleci.com/gh/rodmba/zee_api)
 
 Zee api is a REST API which consumes Github API and uses JWT as authentication.
