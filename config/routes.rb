@@ -10,6 +10,8 @@ Rails.application.routes.draw do
       resources :git_hub, only: %i[repositories] do
         collection do
           get :repositories
+          get :repository_by_keyword
+          get :repository_by_user
         end
       end
     end

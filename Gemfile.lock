@@ -134,9 +134,6 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    responders (3.0.0)
-      actionpack (>= 5.0)
-      railties (>= 5.0)
     rspec (3.7.0)
       rspec-core (~> 3.7.0)
       rspec-expectations (~> 3.7.0)
@@ -198,8 +195,8 @@ DEPENDENCIES
   dotenv-rails (~> 2.7.4)
   factory_bot_rails (~> 4.8.2)
   faraday
-  listen (>= 3.0.5, < 3.2)
   jwt
+  listen (>= 3.0.5, < 3.2)
   pg (>= 0.18, < 2.0)
   pry-rails
   puma (~> 3.11)

@@ -20,6 +20,7 @@ gem "faraday"
 group :development, :test do
   gem "dotenv-rails", "~> 2.7.4"
   gem "factory_bot_rails", "~> 4.8.2"
+  gem "pry-rails"
 end
 
 group :development do
